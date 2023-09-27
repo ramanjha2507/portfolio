@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5707efbd47.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   
+    <div id="header">
+        <div class="container">
+        <nav>
+            <img src="logo.jpg" class="logo">
+            <ul id="sideMenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+        </nav>
+        <div class="head1">
+            <div class="haader-text">
+                <p>Software Devloper & Web Designer</p>
+                <h1>Hi, I'm <span>Raman Jha</span><br> I am From India</h1>
+            </div>
+            <div class="head2">
+                <img src="boy-coding-designing-with-pc-illustration_418302-2378-removebg-preview.png" alt="">
+            </div>
+        </div>
+        
+        </div>
+    </div>
+
+    <!---------------about--------------> 
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="hacker-operating-laptop-cartoon-icon-illustration-technology-icon-concept-isolated-flat-cartoon-style_138676-2387.avif" alt="">
+                </div>
+                <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p><br>I am Raman Kumar Jha currently pursueing B.Tech in Electrical Engineering from Delhi Technological University.I am currently in third year.I am intrested in Softaware Devlopment field and I am from New Delhi</p>
+               <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('Education')">Education</p>
+
+               </div>
+               <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>Web Devlopment</span><br>Designing web app interface</li>
+                    <li><span>Competative Programer</span><br>Designing web app interface</li>
+                    <li><span>Teaching</span><br>Experienced educator with a strong passion for teaching and instructed chemistry at Vidyapant Education for 2.5 years.
+                    </li> 
+                </ul>
+               </div>
+               <div class="tab-contents" id="Experience">
+                <ul>
+                    <li><span>June 2023- July 2023</span><br>Summer Intern, Siemens Digital and software, Pune</li>
+                    <li><span>June 2022- August 2022</span><br>Summer Intern, Siemens Ltd. Energy Automation, GOA</li>
+                    <li><span>June,2022</span><br>Traning: Basics of PLC and Drives, Siemens Technical Academy, Siemens Kalwa</li>
+                    <li><span>December,2022</span><br>Training: Mechatronics Training, MIT, Aurangabad, Maharashtra</li>
+                </ul>
+               </div>
+               <div class="tab-contents" id="Education" >
+                <ul>
+                    <li><span>2020-current</span><br>B.Tech(Electrical Engineering), Delhi Technological University<br>CGPA:8.78</li>
+                    <li><span>2019</span><br>V.C.S.G Sarvodaya Bal Vidhyalaya<br>Percentage:89%</li>
+                    <li><span>2017</span><br>V.C.S.G Sarvodaya Bal Vidhyalaya<br>Percentage:91%</li>
+                </ul>
+               </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----------------service------------->
+
+    <div id="Services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                       <p>As a web designer, I am responsible for big-picture decisions, like the menus listed on the site, and smaller details, like which fonts, colors, and graphics to use.I am designer creates the layout and design of a website. </p>
+                       <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-codepen"></i>
+                    <h2>Teaching</h2>
+                       <p>Experienced educator with a strong passion for teaching and instructed chemistry at Vidyapant Education for 2.5 years.
+                    </p>
+                       <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-code-compare"></i>
+                        <h2>Consultant</h2>
+                           <p>help organisations manage change and solve problems so they operate more efficiently and therefore profitably. </p>
+                           <a href="#">Learn More</a>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------portfolio-------- -->
+    <div id="portfolio">
+     <div class="container">
+        <h1 class="sub-title">My Work</h1>
+          <div class="work-list">
+            <div class="work">
+                <img src="shutterstock_1039453264 (1).webp" alt="">
+                <div class="layer">
+                    <h3>My Portfolio</h3>
+                    <p></p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="priya-june-2020-patrick-tay-work-from-home-lead-istock.jpg" alt="">
+                <div class="layer">
+                    <h3>To-Do List Web App </h3>
+                    <p>Crafted an intuitive time management solution with Node.js, MongoDB, and Express, enabling seamless task modification and 
+                        efficient day-to-day planning </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-life-balance.webp" alt="">
+                <div class="layer">
+                    <h3>Marine-war</h3>
+                    <p>Developed an engaging single-player 2D shooting game using JavaScript</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+          </div>
+          <a href="" class="btn">See More</a>
+     </div>
+    </div>
+
+<!-- ------------------contact-------------- -->
+
+
+
+<div id="contact">
+    <div class="container">
+    <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-regular fa-message"></i> ramanjha2507ku@gmail.com</p>
+            <p><i class="fa-sharp fa-solid fa-phone"></i> 9560212008</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/profile.php?id=100057489017802"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/2k20213"><i class="fa-brands fa-twitter-square"></i></a>
+                <a href="https://www.instagram.com/its_ramanjha/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/raman-kumar-jha-813b1320a/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="Raman Kumar jha Resume 27.pdf"  download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+        <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="text" name="email" placeholder="Your Email" required>
+            <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+            <button type="Submit" class="btn btn2">Submit</button>
+        </form>
+        <div id="msg"></div>
+    </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © Raman. Made By Raman Kumar Jha</p>
+    </div>
+</div>
+
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+           }
+</script>
+<script>
+    var sideMenu=document.getElementById("sideMenu");
+    function openMenu(){
+        sideMenu.style.right="0";
+    }
+    function closeMenu(){
+        sideMenu.style.right="-200px";
+    }
+</script>
+
+<script>
+  const scriptURL = '<https://script.google.com/macros/s/AKfycbyLuGN3QqBOpupRVgsHhs_rV7CPh-9d_L3qtpsdHYnfmbiX1XUVOvo9SDyHh1G_e1gw/exec>'
+  const form = document.forms['submit-to-google-sheet']
+  const msg=document.getElementById("msg")
+  form.addEventListener('Submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML="Message sent sucessfully"
+        setTimeout(function(){
+            msg.innerHTML=""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+</html>
